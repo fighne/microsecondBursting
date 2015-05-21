@@ -1,0 +1,4 @@
+#selectForm {padding-top:15px; height:65px; position:relative; top:0px; left:0px; width:1200px;}
+#selectLoading {padding-top:25px width:508px; height:381px; position:relative; top:0px; left:0px; background-image:url('loading.gif'); display:none; background-repeat:no-repeat;}
+#rangePanel {position:relative; top:0px; left:0px; width:200px; height:150px; text-align:left; border:solid 1px red;}
+#container {width: 1200px; min-width: 900px; height: 700px; margin: 0 auto}

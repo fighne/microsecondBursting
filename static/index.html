@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+	<title>Microsecond Utilization Charting</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="_frameworks/bootstrap-3.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="_frameworks/bootstrap-3.2.0-dist/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+	<!-- <link href="_frameworks/bootstrap-3.2.0-dist/css/slider.css" rel="stylesheet"> -->
+
+	<!-- Custom styles for this template -->
+	<link href="_css/navbar-fixed-top.css" rel="stylesheet">
+	<link href="_css/style.css" rel="stylesheet">
+	<!-- Just for debugging purposes. Don't actually copy this line! -->
+	<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+  </head>
+
+  <body>
+
+	<!-- Fixed navbar -->
+	<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	  <div class="container">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		  <a class="navbar-brand" href="#">Microsecond Utilization Charting</a><br>
+		<div class="form-group" style="width:300px;top:60px;left:30px;">
+                <div class='input-group date' id='datetimepicker10'>
+                    <input type='text' class="form-control" />
+                    <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+            </div>
+		<br>
+		  <div id="selectForm"><form action="#" id="timeframe" name="timeframe"></form></div>
+		</div>
+		<div class="navbar-collapse collapse">
+		</div><!--/.nav-collapse -->
+	  </div>
+	</div>
+	<!--
+	<ul class="nav nav-tabs" role="tablist">
+	  <li class="active"><a href="#home" role="tab" data-toggle="tab">Home</a></li>
+	  <li><a href="#select" role="tab" data-toggle="tab">Timeframe</a></li>
+	  <li><a href="#chart" role="tab" data-toggle="tab">Chart</a></li>
+	</ul>
+	-->
+	<div class="container">
+		<!-- Tab panes -->
+		<!-- <div class="tab-content">
+		  <div class="tab-pane active" id="home"> -->
+			<p>Instructions</p><p> This software will only run on the following browsers Firefox(v31+), Safari(v7+), Chrome(v36+), IE(11+). </p>
+		  <!-- </div> -->
+		  <!-- <div class="tab-pane" id="select"> -->
+
+			
+		  <!-- <div id="selectLoading">&nbsp;</div> -->
+		  <!-- </div> -->
+		  <!--
+		  <div class="tab-pane" id="chart">
+						<div id="rangesPanel">
+							<table>
+								<tr style="width:150px">
+									<th style="width:75px">type</th>
+									<th style="width:75px">max</th>
+								</tr>
+								<tr>
+									<td>Packets</td>
+									<td id="packets"></td>
+								</tr>
+								<tr>
+									<td>Bytes</td>
+									<td id="bytes"></td>
+								</tr>
+								<tr>
+									<td>Flows</td>
+									<td id="flows"></td>
+								</tr>
+							</table>
+						</div>
+
+			<form action="#" id="frameselection" name="frameselection">
+				<label for="start" style="padding-right:7px">Timeframe start:</label>
+				<input type="text" id="foo" class="span2" value="" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="0" data-slider-orientation="horizontal" data-slider-selection="after" data-slider-tooltip="show">
+						</form>
+			-->
+			<div id="container"></div>
+		  <!-- </div> </div> -->
+	</div> <!-- /container -->
+
+
+	<!-- Bootstrap core JavaScript
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="_js/jquery/jquery-2.1.1.js"></script>
+
+	<script src="_frameworks/bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
+	<script src="_frameworks/bootstrap-3.2.0-dist/js/moment.js"></script>
+
+	<script src="_frameworks/bootstrap-3.2.0-dist/js/bootstrap-datetimepicker.min.js"></script>
+	<!-- <script src="_frameworks/bootstrap-3.2.0-dist/js/bootstrap-slider.js"></script> -->
+	<!-- <script src="_js/crossfilter/crossfilter.min.js"></script> -->
+	<script src="_js/highcharts/js/highcharts.js"></script>
+	<script src="_js/highcharts/js/modules/exporting.js"></script>
+
+	<script src="_js/main.js"></script>
+  </body>
+</html>
